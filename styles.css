@@ -16,12 +16,16 @@ h2 {
 
 h3 {
     color: rgb(67, 170, 140);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 
 h4 {
     color: rgb(120, 205, 182);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 
 body {
@@ -30,24 +34,24 @@ body {
 }
 
 body {
-    background-image: linear-gradient(rgb(205, 234, 253), rgb(218, 255, 225))
+    background-image: linear-gradient(rgba(239, 206, 255, 0.411), rgb(170, 221, 255), rgb(193, 245, 203), rgba(233, 255, 177, 0.26))
 }
 
 #backbone {
     width: 300px;
-    height: 300px;
+    height: 345px;
     padding: 5px;
-    border: 5px dotted rgb(144, 105, 169);
-    background-color: rgb(255, 255, 255);
+    border: 6px dotted rgb(144, 105, 169);
+    background-image: url("https://64.media.tumblr.com/ff09fadfda9cc8ed14f9f10fa6b8fc07/a334bc640ae45c15-84/s250x400/233bddf2ffad0f79476f9b621dc10fb13b8abf66.gifv");
     margin: 5px;
     box-shadow: 5px 5px 5px 5px rgb(177, 231, 250);
   }
 
 #image-seal {
     mask:
-    radial-gradient(at 70% 31%,#000 29%,#0000 30%),
-    radial-gradient(at 30% 31%,#000 29%,#0000 30%),
-    linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+    radial-gradient(at 70% 31%,#d83275 29%,#ffa4bc00 30%),
+    radial-gradient(at 30% 31%,#ff41a6 29%,#ff96e100 30%),
+    linear-gradient(#ff8b8b 0 0) bottom/100% 50% no-repeat;
    clip-path: polygon(-41% 0,50% 91%, 141% 0);
 }
 
@@ -71,4 +75,18 @@ body {
 #abt {
     display: flex;
     justify-content: center;
+}
+
+#turtle {
+    display: flex;
+    justify-content: right;
+}
+
+#seal-gif {
+    display: flex;
+    justify-content: left;
+}
+
+#whale-img {
+    padding-right: 10px;
 }
