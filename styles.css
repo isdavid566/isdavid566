@@ -42,6 +42,7 @@ body {
     height: 345px;
     padding: 5px;
     border: 6px dotted rgb(144, 105, 169);
+    background-color: rgb(255, 236, 221);
     background-image: url("https://64.media.tumblr.com/ff09fadfda9cc8ed14f9f10fa6b8fc07/a334bc640ae45c15-84/s250x400/233bddf2ffad0f79476f9b621dc10fb13b8abf66.gifv");
     margin: 5px;
     box-shadow: 5px 5px 5px 5px rgb(177, 231, 250);
